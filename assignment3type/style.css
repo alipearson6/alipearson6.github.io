@@ -2,7 +2,57 @@
 font-size: 48px;
 font-family: 'eSourc Sans Pro', sans-serif;
 font-size: 17px; */
+* {
+    margin:0;
+    padding: 0;
+}
 
 body {
     font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-family:'eSourc Sans Pro', sans-serif;
+    font-size: 30px; 
+    text-align: left;
+    margin-top: 20px;
+}
+
+h2 {
+    font-family:'eSourc Sans Pro', sans-serif;
+    text-align: left;
+}
+
+.img-sunflower {
+    width: 1600px
+}
+
+.quotes {
+    font-size: 60px; 
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #E3BB1C
+}
+
+.maintitles {
+    font-size: 40px; 
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(32, 95, 32)
+}
+
+.secondheader {
+    font: size 35px;
+    text-align: left;
+    color: rgb(13, 66, 2);
+    margin: 15px;
+}
+
+.bodycopy {
+    font-size: 20px;
+    text-align: left;
+    color: rgb(5, 29, 0);
+    margin: 15px;
 }
