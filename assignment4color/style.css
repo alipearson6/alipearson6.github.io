@@ -1,0 +1,43 @@
+* {
+    box-sizing: boarder-box;
+}
+
+body {
+    margin: 0;
+}
+
+.grid {
+    display: flex;
+}
+
+.grid div{
+    flex: 1;
+    height: 600px;
+    width: 400px;
+    background-color: #cccccc
+}
+
+.grid .red {
+    background-color: #bd2031;
+    margin: 5px;
+}
+
+.grid .green {
+    background-color: #9acd32;
+    margin: 5px;
+}
+
+.grid .blue {
+    background-color: #63acce;
+    margin: 5px;
+}
+
+.grid .yellow {
+    background-color: #ffef00;
+    margin: 5px;
+}
+
+
+
+
+
