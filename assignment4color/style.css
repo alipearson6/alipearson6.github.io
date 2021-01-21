@@ -12,8 +12,8 @@ body {
 
 .grid div{
     flex: 1;
-    height: 600px;
-    width: 400px;
+    height: 500px;
+    width: 300px;
     background-color: #cccccc
 }
 
@@ -38,8 +38,8 @@ body {
 }
 
 .parent{
-    width: 400px;
-    height: 600px;
+    width: 300px;
+    height: 500px;
     position: relative;
 }
 
