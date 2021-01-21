@@ -37,7 +37,23 @@ body {
     margin: 5px;
 }
 
+.parent{
+    width: 400px;
+    height: 600px;
+    position: relative;
+}
 
+.parent .red {
+    <img src="redbird.png"
+        width= 300px;
+        height= 500px;
+        alt= "Cardinal">
+    position: relative;
+}
+
+.parent .green{ 
+
+}
 
 
 
