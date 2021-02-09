@@ -65,5 +65,65 @@ h1 .flexcontainer2 {
     font-size: 20pt;
 }
 
+.flexcontainer3 {
+    display: flex 100%;
+    position: relative; 
+    top: 200px;
+    left: 700px;
+    text-align: left;
+    font-family: 'Karla', Sans-Serif;
+    font-size: 15pt;
+}
+
+h1 .flexcontainer3 {
+    font-family: 'Rubik', Sans-Serif;
+    font-size: 20pt;
+}
+
+.flexcontainer3 {
+    display: flex 100%;
+    position: relative; 
+    top: 200px;
+    left: 700px;
+    text-align: left;
+    font-family: 'Karla', Sans-Serif;
+    font-size: 15pt;
+    }
+    
+h1 .flexcontainer3 {
+    font-family: 'Rubik', Sans-Serif;
+    font-size: 20pt;
+    }
+
+.flexcontainer4 {
+    display: flex 100%;
+    position: relative; 
+    top: 200px;
+    left: 700px;
+    text-align: left;
+    font-family: 'Karla', Sans-Serif;
+    font-size: 15pt;
+    }
+        
+ h1 .flexcontainer4 {
+    font-family: 'Rubik', Sans-Serif;
+    font-size: 20pt;
+    }
+
+ .flexcontainer5 {
+    display: flex 100%;
+    position: relative; 
+    top: 200px;
+    left: 100px;
+    text-align: left;
+    font-family: 'Karla', Sans-Serif;
+    font-size: 15pt;
+    }
+            
+ h1 .flexcontainer5 {
+    font-family: 'Rubik', Sans-Serif;
+    font-size: 20pt;
+    left: 100px;
+    }
 
 
