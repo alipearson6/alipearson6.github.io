@@ -1,6 +1,5 @@
 h1, h2, h3 {
     font-family: 'Rubik', Sans-Serif;
-    font-size: 70px;
     line-height: 100px;
     margin-bottom: 20px;
     color: rgb(0, 0, 0);
@@ -17,48 +16,86 @@ h1, h2, h3 {
     top:0;
     right:0;
     height: 100px;
-    
 }
 
-nav ul.nav {
-    font-family: 'Rubik', Sans-Serif;
+.nav {
+    font-family: 'Karla', Sans-Serif;
+    font-size: 15pt;
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
-}
-
-nav li {
     padding-right: 20px;
-    justify-content: flex-end;
     color: white;
 }
 
 
+.flexcontainer h1 {
+    font-family: 'Rubik', Sans-Serif;
+    font-size: 20pt;
+}
+
 .flexcontainer {
    display: flex 100%;
    position: relative; 
-   top: 150px;
+   top: 50px;
    text-align: center;
    font-family: 'Karla', Sans-Serif;
    font-size: 15pt;
 }
 
-h1 .flexcontainer {
-    font-family: 'Rubik', Sans-Serif;
-    font-size: 20pt;
+.home-page .bottom-bg { 
+    background-image: url('images/bottomelements-06.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100vw;
+    }
+
+.homepage .nav-bg {
+    background-image: url('images/navbarelements-06.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    color: white;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    }
+
+
+
+.flexcontainer2 h1{
+        font-family: 'Rubik', Sans-Serif;
+        font-size: 20pt;
+        margin-bottom: 0;
+        left: 700px;
 }
 
 .flexcontainer2 {
     display: flex 100%;
+    position: relative;
+    text-align: left;
+    font-family: 'Karla', Sans-Serif;
+    font-size: 15pt;
+    top: 50px;
+    left: 300px;
+ }
+
+.flexcontainer3 {
+    display: flex 100%;
     position: relative; 
     top: 200px;
     left: 700px;
     text-align: left;
     font-family: 'Karla', Sans-Serif;
-    font-size: 15pt;
+    font-size: 12pt;
 }
 
-h1 .flexcontainer2 {
+.flexcontainer3 h1 {
     font-family: 'Rubik', Sans-Serif;
     font-size: 20pt;
 }
@@ -70,25 +107,10 @@ h1 .flexcontainer2 {
     left: 700px;
     text-align: left;
     font-family: 'Karla', Sans-Serif;
-    font-size: 15pt;
-}
-
-h1 .flexcontainer3 {
-    font-family: 'Rubik', Sans-Serif;
-    font-size: 20pt;
-}
-
-.flexcontainer3 {
-    display: flex 100%;
-    position: relative; 
-    top: 200px;
-    left: 700px;
-    text-align: left;
-    font-family: 'Karla', Sans-Serif;
-    font-size: 15pt;
+    font-size: 12pt;
     }
     
-h1 .flexcontainer3 {
+.flexcontainer3 h1 {
     font-family: 'Rubik', Sans-Serif;
     font-size: 20pt;
     }
@@ -100,32 +122,33 @@ h1 .flexcontainer3 {
     left: 700px;
     text-align: left;
     font-family: 'Karla', Sans-Serif;
-    font-size: 15pt;
+    font-size: 12pt;
     }
         
- h1 .flexcontainer4 {
+.flexcontainer4 h1 {
     font-family: 'Rubik', Sans-Serif;
     font-size: 20pt;
     }
 
- .flexcontainer5 {
+.flexcontainer5 {
     display: flex 100%;
     position: relative; 
     top: 200px;
     left: 100px;
     text-align: left;
     font-family: 'Karla', Sans-Serif;
-    font-size: 15pt;
+    font-size: 12pt;
     }
             
- h1 .flexcontainer5 {
+.flexcontainer5 h1 {
     font-family: 'Rubik', Sans-Serif;
     font-size: 20pt;
     left: 100px;
     }
 
+
 .rainforest-page .bottom-bg { 
-        background-image: url('images/bottomelements-09.png');
+    background-image: url('images/bottomelements-09.png');
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -137,13 +160,12 @@ h1 .flexcontainer3 {
 
 .rainforest-page .left-bottom-bg { 
     background-image: url('images/rainforestimg.png');
-    bottom: -200px;
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 900px;
-    width: 700px;
+    height: 100vh;
+    width: 100vw;
 }
 
 .rainforest-page .nav-bg {
