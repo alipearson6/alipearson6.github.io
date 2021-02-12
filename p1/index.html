@@ -6,9 +6,34 @@
     <title>Project 1</title>
     <link href="https://fonts.googleapis.com/css?family=Karla|Rubik" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
+    <style> 
+        .bottom-bg { 
+            background-image: url('images/bottomelements-06.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 100vh;
+            width: 100vw;
+            
+        }
+
+        .nav-bg {
+            background-image: url('images/navbarelements-06.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
 </head>
 
-<body>
+<body> <div class="nav-bg"></div><div class="bottom-bg"></div>
     <header>
         <nav>
             <ul class="nav">
@@ -21,25 +46,7 @@
         </nav>
     </header>
 
-    <style> 
-        body { 
-            background-image: url('images/bottomelements-06.png');
-            background-size: cover;
-            background-repeat: no-repeat;
-            left: 0;
-            bottom: 0;
-            position: absolute;
-        }
-
-        header {
-            background-image: url('images/navbarelements-06.png');
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: absolute;
-            top: 0;
-            right: 0;
-        }
-    </style>
+   
 
     <main>
         <section class="flexcontainer">

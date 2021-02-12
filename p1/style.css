@@ -14,19 +14,15 @@ h1 h2 h3 {
 
  header {
     width:100vw;
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
     top:0;
     right:0;
     height: 100px;
+    justify-content: flex-end;
 }
 
 nav ul.nav {
     font-family: 'Rubik', Sans-Serif;
-    position: absolute;
-    top: 50px;
-    right: 50px;
+    color: white;
     list-style-type: none;
     display: flex;
 }
