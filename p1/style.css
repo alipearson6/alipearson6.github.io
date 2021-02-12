@@ -1,4 +1,4 @@
-h1 h2 h3 {
+h1, h2, h3 {
     font-family: 'Rubik', Sans-Serif;
     font-size: 70px;
     line-height: 100px;
@@ -6,7 +6,7 @@ h1 h2 h3 {
     color: rgb(0, 0, 0);
   }
 
-  body p header {
+  body, p, header {
     font-family: 'Karla', Sans-Serif;
     font-size: 20pt;
     margin: 10px;
@@ -17,18 +17,20 @@ h1 h2 h3 {
     top:0;
     right:0;
     height: 100px;
-    justify-content: flex-end;
+    
 }
 
 nav ul.nav {
     font-family: 'Rubik', Sans-Serif;
-    color: white;
     list-style-type: none;
     display: flex;
+    justify-content: flex-end;
 }
 
 nav li {
     padding-right: 20px;
+    justify-content: flex-end;
+    color: white;
 }
 
 
@@ -122,4 +124,37 @@ h1 .flexcontainer3 {
     left: 100px;
     }
 
+.rainforest-page .bottom-bg { 
+        background-image: url('images/bottomelements-09.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.rainforest-page .left-bottom-bg { 
+    background-image: url('images/rainforestimg.png');
+    bottom: -200px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 900px;
+    width: 700px;
+}
+
+.rainforest-page .nav-bg {
+    background-image: url('images/navbarelements-09.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
 
