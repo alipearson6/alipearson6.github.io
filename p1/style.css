@@ -28,16 +28,17 @@ h1, h2, h3 {
     color: white;
 }
 
-
+/* Home Page */
 .flexcontainer h1 {
     font-family: 'Rubik', Sans-Serif;
-    font-size: 20pt;
+    font-size: 30pt;
+    top: 35px;
 }
 
 .flexcontainer {
    display: flex 100%;
    position: relative; 
-   top: 50px;
+   top: 20px;
    text-align: center;
    font-family: 'Karla', Sans-Serif;
    font-size: 15pt;
@@ -67,12 +68,11 @@ h1, h2, h3 {
     }
 
 
-
+/* Rainforest */
 .flexcontainer2 h1{
         font-family: 'Rubik', Sans-Serif;
-        font-size: 20pt;
-        margin-bottom: 0;
-        left: 700px;
+        font-size: 30pt;
+        top: 40px;
 }
 
 .flexcontainer2 {
@@ -81,73 +81,10 @@ h1, h2, h3 {
     text-align: left;
     font-family: 'Karla', Sans-Serif;
     font-size: 15pt;
-    top: 50px;
-    left: 300px;
+    left: 275px;
  }
 
-.flexcontainer3 {
-    display: flex 100%;
-    position: relative; 
-    top: 200px;
-    left: 700px;
-    text-align: left;
-    font-family: 'Karla', Sans-Serif;
-    font-size: 12pt;
-}
-
-.flexcontainer3 h1 {
-    font-family: 'Rubik', Sans-Serif;
-    font-size: 20pt;
-}
-
-.flexcontainer3 {
-    display: flex 100%;
-    position: relative; 
-    top: 200px;
-    left: 700px;
-    text-align: left;
-    font-family: 'Karla', Sans-Serif;
-    font-size: 12pt;
-    }
-    
-.flexcontainer3 h1 {
-    font-family: 'Rubik', Sans-Serif;
-    font-size: 20pt;
-    }
-
-.flexcontainer4 {
-    display: flex 100%;
-    position: relative; 
-    top: 200px;
-    left: 700px;
-    text-align: left;
-    font-family: 'Karla', Sans-Serif;
-    font-size: 12pt;
-    }
-        
-.flexcontainer4 h1 {
-    font-family: 'Rubik', Sans-Serif;
-    font-size: 20pt;
-    }
-
-.flexcontainer5 {
-    display: flex 100%;
-    position: relative; 
-    top: 200px;
-    left: 100px;
-    text-align: left;
-    font-family: 'Karla', Sans-Serif;
-    font-size: 12pt;
-    }
-            
-.flexcontainer5 h1 {
-    font-family: 'Rubik', Sans-Serif;
-    font-size: 20pt;
-    left: 100px;
-    }
-
-
-.rainforest-page .bottom-bg { 
+ .rainforest-page .bottom-bg { 
     background-image: url('images/bottomelements-09.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -180,3 +117,138 @@ h1, h2, h3 {
     height: 100vh;
 }
 
+
+/* Deciduous */
+.flexcontainer3 h1 {
+    font-family: 'Rubik', Sans-Serif;
+    font-size: 30pt;
+    top: 45pt;
+}
+
+.flexcontainer3 {
+    display: flex 100%;
+    position: relative; 
+    top:20px;
+    left: 340px;
+    text-align: left;
+    font-family: 'Karla', Sans-Serif;
+    font-size: 15pt;
+}
+
+.deciduous-page .bottom-bg {
+            background-image: url('images/bottomelements-08.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 100vh;
+            width: 100vw;
+        }
+.deciduous-page .left-bottom-bg { 
+            background-image: url('images/deciduousimg.png');
+            background-repeat: no-repeat;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 100vh;
+            width: 100vw;
+        }
+.deciduous-page .nav-bg {
+            background-image: url('images/navbarelements-08.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+        }
+
+/* Coniferous */
+.flexcontainer4 h1 {
+    font-family: 'Rubik', Sans-Serif;
+    font-size: 30pt;
+    top:60px;
+    }
+
+.flexcontainer4 {
+    display: flex 100%;
+    position: relative; 
+    top: 25px;
+    left: 290px;
+    text-align: left;
+    font-family: 'Karla', Sans-Serif;
+    font-size: 15pt;
+    }
+.coniferous-page .bottom-bg { 
+    background-image: url('images/bottomelements-10.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100vw;
+}
+.coniferous-page .left-bottom-bg{ 
+    background-image: url('images/coniferousimg.png');
+    background-size: 900px 700px;
+    background-repeat: no-repeat;
+    left: 0;
+    bottom: 0;
+}
+
+.coniferous-page .nav-bg {
+    background-image: url('images/navbarelements-10.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+     
+
+/* How to Help */
+.flexcontainer5 h1 {
+    font-family: 'Rubik', Sans-Serif;
+    font-size: 30pt;
+    left: 13px;
+    top: 30px;
+    }
+
+.flexcontainer5 {
+    display: flex 100%;
+    position: relative; 
+    left: 100px;
+    text-align: left;
+    font-family: 'Karla', Sans-Serif;
+    font-size: 15pt;
+    }
+
+.howtohelp-page .bottom-bg { 
+    background-image: url('images/bottomelements-07.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.howtohelp-page .nav-bg {
+    background-image: url('images/navbarelements-07.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
