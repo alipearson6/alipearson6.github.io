@@ -20,6 +20,7 @@ h1, h2, h3 {
 .nav li {
     padding-right: 25px;
     color: white;
+    z-index: 1;
 }
 .nav {
     font-family: 'Karla', Sans-Serif;
@@ -55,7 +56,7 @@ h1, h2, h3 {
     bottom: 0;
     height: 100vh;
     width: 100vw;
-    z-index: -1;
+    z-index: -2;
     }
 
 .homepage .nav-bg {
@@ -63,7 +64,6 @@ h1, h2, h3 {
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    color: white;
     top: 0;
     right: 0;
     width: 100vw;
@@ -97,17 +97,18 @@ h1, h2, h3 {
     bottom: 0;
     height: 100vh;
     width: 100vw;
-    z-index: -1;
+    z-index: -2;
 }
 
 .rainforest-page .left-bottom-bg { 
     background-image: url('images/rainforestimg.png');
     background-repeat: no-repeat;
     position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 100vh;
-    width: 100vw;
+    top:0;
+    left: 0px;
+    bottom:0;
+    height: 100%;
+    width: 100%;
     z-index: 1;
 }
 
@@ -151,7 +152,7 @@ h1, h2, h3 {
             bottom: 0;
             height: 100vh;
             width: 100vw;
-            z-index: -1;
+            z-index: -2;
         }
 .deciduous-page .left-bottom-bg { 
             background-image: url('images/deciduousimg.png');
@@ -159,8 +160,8 @@ h1, h2, h3 {
             position: absolute;
             left: 0;
             bottom: 0;
-            height: 100vh;
-            width: 100vw;
+            height: 110%;
+            width: 100%;
             z-index: 1;
         }
 .deciduous-page .nav-bg {
@@ -207,9 +208,12 @@ h1, h2, h3 {
     background-image: url('images/coniferousimg.png');
     background-size: 900px 700px;
     background-repeat: no-repeat;
+    position: absolute;
+    top: 57px;
     left: 0;
     bottom: 0;
-    z-index: 1;
+    height: 100vh;
+    width: 100vw;
 }
 
 .coniferous-page .nav-bg {
