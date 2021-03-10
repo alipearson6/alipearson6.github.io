@@ -1,0 +1,108 @@
+body {
+    background-color: #FFF9F2;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header {
+    width:100vw;
+    top:0;
+    right:0;
+    height: 100px;
+    background-color: #B46B4B;
+    margin-top: 0;
+}
+
+a { text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+a:hover {
+    border-bottom: 4px solid white;
+}
+
+nav a {
+    color: white;
+}
+
+.nav li {
+    padding-right: 25px;
+    z-index: 1;
+}
+
+.nav {
+    font-size: 12pt;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1;
+}
+
+.welcome {
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.welcome img{
+    padding: 15px;
+    padding-top: 30px;
+    height: 500px;
+    width: 500px;
+    align-content: center;
+
+}
+
+.breadwall img {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 50vh;
+    width: 100vw;
+    align-content: center;
+}
+
+.bakedgoods{
+display: flex;
+background-position: 50% 50%;
+text-align: left;
+}
+
+.bakedgoods img{
+display: flex;
+background-position: 50% 50%;
+height: 150px;
+width: 150px;
+padding: 15px;
+}
+
+.logolockup img {
+    padding: 15px;
+    height: 260px;
+    width: 300px;
+    align-content: center;
+}
+
+.seatingarea img {
+    padding: 15px;
+    height: 350px;
+    width: 350px;
+    align-content: center;
+}
+
+.center {
+    text-align: center;
+}
+.button {
+    border: 2px #515B6C;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 40px;
+}
