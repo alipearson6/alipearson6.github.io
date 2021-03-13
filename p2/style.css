@@ -119,15 +119,15 @@ padding: 15px;
 }
 
 div .businesscard{
-    height: 100px;
-    width: 100vw;
+    height: 500px;
+    width: 600px;
     position: center;
+    align-content: center;
 }
 
 .menu {
     height: 100px;
     width: 100px;
-    padding: 15px;
     position: center;
 }
 
