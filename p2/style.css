@@ -108,7 +108,7 @@ padding: 15px;
     padding: 15px;
     height: 70vh;
     width: 70vw;
-    align-content: center;
+    position: center;
 }
 
 .button {
@@ -119,15 +119,15 @@ padding: 15px;
 }
 
 div .businesscard{
-    height: 60vh;
-    width: 80vw;
-    align-content: center;
+    height: 100px;
+    width: 100vw;
+    position: center;
 }
 
 .menu {
-    height: 1000vh;
-    width: 100vw;
+    height: 100px;
+    width: 100px;
     padding: 15px;
-    align-content: center;
+    position: center;
 }
 
