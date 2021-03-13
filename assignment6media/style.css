@@ -18,6 +18,7 @@ h2 {
 	margin:0;
 }
 header h2 {font-weight: normal;}
+
 header {
 	width: 90%;
 	margin: auto;
@@ -25,9 +26,8 @@ header {
 img { width: 100%; }
 
 .feature .article-tidbit {
-	display:none;
+	display: none;
 }
-
 article, .feature {
 	margin-bottom: 40px;
 }
@@ -35,13 +35,16 @@ article, .feature {
 	width: 90%;
 	margin: auto;
 }
+
 .feature, .news-thumbs {
 	display: flex;
 	flex-direction: column;
 }
+
 .feature div, .news-thumbs article {
 	flex: 1;
 }
+
 .feature-content {padding-left: 40px;}
 
 .button {
@@ -58,9 +61,11 @@ article, .feature {
 }
 
 @media only screen and (min-width: 768px) {
+	body{ background-color: darkred;}
 	h1 {
 		font-size: 60px;
 		line-height: 68px;
+		margin-bottom: 0;
 	}
 	h2 {
 		font-size: 32px;
@@ -70,6 +75,7 @@ article, .feature {
 		width: 80%;
 	}
 	header h2 {font-weight: bold;}
+
 	.feature, .news-thumbs {
 		flex-direction: row;
 		margin: 0 auto;
@@ -82,16 +88,9 @@ article, .feature {
 		margin-right:0;
 	}
 	.news-thumbs {margin-top: 60px;}
+
 	.feature .article-tidbit {
 		display:block;
-	}
-
-}
-
-
-@media only screen and (min-width: 2400px) {
-	.feature, .news-thumbs, header {
-		width: 60%;
 	}
 
 }
