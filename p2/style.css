@@ -6,6 +6,23 @@ body {
 *{
     box-sizing: border-box;
 }
+h1, h2, h3 {
+    font-family: 'buena-park-jf', serif;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;
+    line-height: 100px;
+    margin-bottom: 20px;
+    color: #515B6C;
+  }
+
+  body, p, header {
+    font-family: 'brandon-grotesque', sans-Serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin: 10px;
+ }
 
 header {
     width:100vw;
@@ -94,7 +111,6 @@ padding: 15px;
     align-content: center;
 }
 
-}
 .button {
     border: 2px #515B6C;
     padding: 10px;
